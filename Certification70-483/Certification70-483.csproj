@@ -111,11 +111,6 @@
     <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example63.cs" />
     <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example64.cs" />
     <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example65.cs" />
-    <Compile Include="AsyncAndThread\SystemThreadingTasksDataflow\BufferBlock.cs" />
-    <Compile Include="AsyncAndThread\SystemThreadingTasksDataflow\ProccessActionBlockCompletion.cs" />
-    <Compile Include="AsyncAndThread\SystemThreadingTasksDataflow\ProccessActionBlockCompletionContinueWith.cs" />
-    <Compile Include="AsyncAndThread\SystemThreadingTasks\ExampleConcurrentExclusiveSchedulerPair.cs" />
-    <Compile Include="Exceptions\StrackOverFlow\TryStackOverflowException.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -123,9 +118,7 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup>
-    <Folder Include="StructVsClass\" />
-  </ItemGroup>
+  <ItemGroup />
   <ItemGroup>
     <Content Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Notes.txt" />
   </ItemGroup>
