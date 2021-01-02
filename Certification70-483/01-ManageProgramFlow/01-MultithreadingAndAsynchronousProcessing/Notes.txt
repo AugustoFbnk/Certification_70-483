@@ -1,0 +1,36 @@
+﻿Synchronization: is the mechanism of ensuring that two threads don’t execute a specific portion of your program at the same time;
+
+Thread priority:
+    -Low: The thread shouldn’t compete with other applications for CPU time;
+    -Higher: Have priority over othre threads;
+    -Normal: A new thread are created normal-priorited as default
+
+Backgroud threads: 
+Foregroud threads: Can be used to keep an application alive. Only when all foreground threads end does the common language runtime (CLR) shut down your application. 
+    Background threads are then terminated (green book)
+
+CPU-bound vs I/O-bound:
+CPU-bound tasks always use some thread to execute their work. An asynchronous I/O-bound task doesn’t use a thread
+until the I/O is finished.
+
+In PLINQ you can use the WithExecutionMode method and specify that it should always execute the query in parallel instead let the runtime decides
+"You can also limit the amount of parallelism that is used with the WithDegreeOfParallelism method. 
+You pass that method an integer that represents the number of processors that
+you want to use. Normally, PLINQ uses all processors (up to 64), but you can limit it with this
+method if you want."
+
+Thought experiment
+Implementing multithreading
+
+1. Explain how multithreading can help with your client application.
+R: Multithreading can improve the responsiveness in a client application. The UI thread can
+   process requests from the user while background threads execute other operations.
+2. What is the difference between CPU and I/O bound operations?
+R: A CPU-bound operation needs a thread to execute. In a client application, it can make
+   sense to execute a CPU-bound operation on another thread to improve responsiveness. In a server application, you don’t want an extra thread for a CPU-bound operation. Asynchronous I/O operations don’t require a thread while executing. Using
+   asynchronous I/O frees the current thread to do other work and improves scalability.  
+3. Does using multithreading with the TPL offer the same advantages for your server application?
+   Using multithreading in a server environment can help you distribute operations
+   over multiple CPUs. This way, you can improve performance. Using the TPL to create
+   another thread to execute a CPU-bound operation while the originating thread has to
+   wait for it won’t help you with increasing performance.

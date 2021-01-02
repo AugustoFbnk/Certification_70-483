@@ -1,0 +1,133 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{F5128E4A-A57C-49B6-AC60-D2F3EB1A7A49}</ProjectGuid>
+    <OutputType>Exe</OutputType>
+    <RootNamespace>Certification70_483</RootNamespace>
+    <AssemblyName>Certification70-483</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Threading.Tasks.Dataflow, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
+      <HintPath>..\packages\System.Threading.Tasks.Dataflow.5.0.0\lib\net461\System.Threading.Tasks.Dataflow.dll</HintPath>
+    </Reference>
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example01.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example02.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example03.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example04.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example05.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example06.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example07.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example08.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example09.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example10.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example11.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example12.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example13.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example14.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example15.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example16.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example17.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example18.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example19.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example20.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example21.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example22.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example23.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example24.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example25.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example26.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example27.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example28.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example29.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example30.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example31.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example32.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example33.cs" />
+    <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example34.cs" />
+    <Compile Include="01-ManageProgramFlow\02-ManageMultithreading\Example38.cs" />
+    <Compile Include="01-ManageProgramFlow\02-ManageMultithreading\Example35.cs" />
+    <Compile Include="01-ManageProgramFlow\02-ManageMultithreading\Example36.cs" />
+    <Compile Include="01-ManageProgramFlow\02-ManageMultithreading\Example37.cs" />
+    <Compile Include="01-ManageProgramFlow\02-ManageMultithreading\Example39.cs" />
+    <Compile Include="01-ManageProgramFlow\02-ManageMultithreading\Example40.cs" />
+    <Compile Include="01-ManageProgramFlow\02-ManageMultithreading\Example41.cs" />
+    <Compile Include="01-ManageProgramFlow\02-ManageMultithreading\Example42.cs" />
+    <Compile Include="01-ManageProgramFlow\02-ManageMultithreading\Example43.cs" />
+    <Compile Include="01-ManageProgramFlow\02-ManageMultithreading\Example44.cs" />
+    <Compile Include="01-ManageProgramFlow\02-ManageMultithreading\Example45.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example46.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example47.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example48.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example49.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example50.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example51.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example52.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example53.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example54.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example55.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example56.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example57.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example58.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example59.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example60.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example61.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example62.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example63.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example64.cs" />
+    <Compile Include="01-ManageProgramFlow\03-ImplementProgramFlow\Example65.cs" />
+    <Compile Include="AsyncAndThread\SystemThreadingTasksDataflow\BufferBlock.cs" />
+    <Compile Include="AsyncAndThread\SystemThreadingTasksDataflow\ProccessActionBlockCompletion.cs" />
+    <Compile Include="AsyncAndThread\SystemThreadingTasksDataflow\ProccessActionBlockCompletionContinueWith.cs" />
+    <Compile Include="AsyncAndThread\SystemThreadingTasks\ExampleConcurrentExclusiveSchedulerPair.cs" />
+    <Compile Include="Exceptions\StrackOverFlow\TryStackOverflowException.cs" />
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+    <None Include="packages.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="StructVsClass\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Notes.txt" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+</Project>
