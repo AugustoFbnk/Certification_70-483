@@ -1,6 +1,8 @@
 ﻿using Certification70_483._01_ManageProgramFlow._01_MultithreadingAndAsynchronousProcessing;
 using Certification70_483._01_ManageProgramFlow._02_ManageMultithreading;
 using Certification70_483._01_ManageProgramFlow._03_ImplementProgramFlow;
+using Certification70_483._01_ManageProgramFlow._04_CreateAndImplementEventsAndDelegates;
+using Certification70_483._01_ManageProgramFlow._05_ImplementExceptionHandling;
 using System;
 
 namespace Certification70_483
@@ -222,6 +224,106 @@ namespace Certification70_483
             //A for loop with multiple loop variables
             //Example65.Start();
 
+            //A for loop with a custom increment
+            //Example66.Start();
+
+            //A for loop with a break statement
+            //Example67.Start();
+
+            //A for loop with a continue statement
+            //Example68.Start();
+
+            //A for loop with a continue statement.
+            //Example69.Start();
+
+            //do-while loop
+            //Example70.Start();
+
+            //foreach loop
+            //Example71.Start();
+
+            //Changing items in a foreach
+            //Example72.Start();
+
+            //The compiler-generated code for a foreach loop
+            //Example73.Start();
+
+            //goto statement with a labe
+            //Example74.Start();
+            #endregion
+
+            #region Chapter01 - CreateAndImplementEventsAndDelegates
+            //Using a delegate
+            //Example75.Start();
+
+            //A multicast delegate
+            //Example76.Start();
+
+            // Covariance with delegates
+            //Example77.Start();
+
+            //Contravariance with delegates
+            //Example78.Start();
+
+            //Lambda expression to create a delegate
+            //Example79.Start();
+
+            //Creating a lambda expression with multiple statements
+            //Example80.Start();
+
+            //Using the Action delegate
+            //Example81.Start();
+
+            //Using an Action to expose an event
+            //Example82.Start();
+
+            //Using the event keyword
+            //Example83.Start();
+
+            //Custom event arguments
+            //Example84.Start();
+
+            //Custom event accessor
+            //Example85.Start();
+
+            //Exception when raising an event
+            //Example86.Start();
+
+            //Manually raising events with exception handling
+            //Example87.Start();
+
+            #endregion
+
+            #region Chapter01 - ImplementExceptionHandling
+            //Parsing an invalid number
+            //Example88.Start();
+
+            //Catching a FormatException
+            //Example89.Start();
+
+            //Catching different exception types
+            //Example90.Start();
+
+            //Using a finally block
+            //Example91.Start();
+
+            //Using Environment.FailFast
+            //Example92.Start();
+
+            //Inspecting an exception
+            //Example93.Start();
+
+            //Throwing an ArgumentNullException
+            //Example94.Start();
+
+            //Rethrowing an exception
+            //Example95.Start();
+
+            //Throwing a new exception that points to the original one
+            //Example96.Start();
+
+            //Using ExceptionDispatchInfo.Throw
+            //Example97.Start();
 
             #endregion
         }
