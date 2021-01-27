@@ -16,7 +16,7 @@ namespace Certification70_483._01_ManageProgramFlow._05_ImplementExceptionHandli
             }
             catch (Exception ex)
             {
-                throw new OrderProcessingException("Error while processing order", ex);
+                throw new SimpleOrderProcessingException("Error while processing order", ex);
             }
         }
 

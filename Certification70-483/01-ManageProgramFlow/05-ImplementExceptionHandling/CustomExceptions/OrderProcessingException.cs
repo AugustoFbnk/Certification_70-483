@@ -1,13 +1,37 @@
 ﻿using System;
+using System.Runtime.Serialization;
 
 namespace Certification70_483._01_ManageProgramFlow._05_ImplementExceptionHandling.CustomExceptions
 {
-    public class OrderProcessingException : Exception
+    [Serializable]
+    public class OrderProcessingException : Exception, ISerializable
     {
-        public OrderProcessingException(string customizedError, Exception ex) 
-            : base($"An error happened when trying to proccess your order: {customizedError} - {ex.Message}")
+        public OrderProcessingException(int orderId)
         {
-
+            OrderId = orderId;
+            this.HelpLink = "http://www.mydomain.com/infoaboutexception";
+        }
+        public OrderProcessingException(int orderId, string message)
+            : base(message)
+        {
+            OrderId = orderId;
+            this.HelpLink = "http://www.mydomain.com/infoaboutexception";
+        }
+        public OrderProcessingException(int orderId, string message,
+     Exception innerException)
+            : base(message, innerException)
+        {
+            OrderId = orderId;
+            this.HelpLink = "http://www.mydomain.com/infoaboutexception";
+        }
+        protected OrderProcessingException(SerializationInfo info, StreamingContext context)
+        {
+            OrderId = (int)info.GetValue("OrderId", typeof(int));
+        }
+        public int OrderId { get; private set; }
+        public void GetObjectData(SerializationInfo info, StreamingContext context)
+        {
+            info.AddValue("OrderId", OrderId, typeof(int));
         }
     }
 }

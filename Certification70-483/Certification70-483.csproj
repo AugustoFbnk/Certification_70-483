@@ -136,6 +136,7 @@
     <Compile Include="01-ManageProgramFlow\04-CreateAndImplementEventsAndDelegates\Example86.cs" />
     <Compile Include="01-ManageProgramFlow\04-CreateAndImplementEventsAndDelegates\Example87.cs" />
     <Compile Include="01-ManageProgramFlow\05-ImplementExceptionHandling\CustomExceptions\OrderProcessingException.cs" />
+    <Compile Include="01-ManageProgramFlow\05-ImplementExceptionHandling\CustomExceptions\SimpleOrderProcessingException.cs" />
     <Compile Include="01-ManageProgramFlow\05-ImplementExceptionHandling\Example88.cs" />
     <Compile Include="01-ManageProgramFlow\05-ImplementExceptionHandling\Example89.cs" />
     <Compile Include="01-ManageProgramFlow\05-ImplementExceptionHandling\Example90.cs" />
@@ -146,6 +147,31 @@
     <Compile Include="01-ManageProgramFlow\05-ImplementExceptionHandling\Example95.cs" />
     <Compile Include="01-ManageProgramFlow\05-ImplementExceptionHandling\Example96.cs" />
     <Compile Include="01-ManageProgramFlow\05-ImplementExceptionHandling\Example97.cs" />
+    <Compile Include="01-ManageProgramFlow\05-ImplementExceptionHandling\Example98.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\common\Address.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\common\Calculator.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\common\Customer.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\common\Distance.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\common\MyExtensions.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\common\Product.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example01.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example02.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example03.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example04.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example05.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example06.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example07.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example08.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example09.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example10.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example11.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example12.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example13.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example14.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example15.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example16.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example17.cs" />
+    <Compile Include="02-CreateAndUseTypes\CreateTypes\Example18.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -158,6 +184,7 @@
     <Content Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Notes.txt" />
     <Content Include="01-ManageProgramFlow\03-ImplementProgramFlow\Notes.txt" />
     <Content Include="01-ManageProgramFlow\04-CreateAndImplementEventsAndDelegates\Notes.txt" />
+    <Content Include="02-CreateAndUseTypes\CreateTypes\Notes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

@@ -325,6 +325,66 @@ namespace Certification70_483
             //Using ExceptionDispatchInfo.Throw
             //Example97.Start();
 
+            //Creating a custom exception
+            //Example98.Start();
+            #endregion
+
+            #region Chapter02 - CreateTypes
+
+            //Using the FlagAttribute for an enum
+            //_02_CreateAndUseTypes.CreateTypes.Example01.Start();
+
+            //Creating a custom struct
+            //_02_CreateAndUseTypes.CreateTypes.Example02.Start();
+
+            //Calling a method
+            //_02_CreateAndUseTypes.CreateTypes.Example03.Start();
+
+            //Creating a method
+            //_02_CreateAndUseTypes.CreateTypes.Example04.Start(2, 2);
+
+            //Passing a complete customer to a method
+            //_02_CreateAndUseTypes.CreateTypes.Example05.Start();
+
+            //Passing only an address to a method
+            //_02_CreateAndUseTypes.CreateTypes.Example06.Start();
+
+            //Using named and optional arguments
+            //_02_CreateAndUseTypes.CreateTypes.Example07.Start();
+
+            //Returning data from a method
+            //_02_CreateAndUseTypes.CreateTypes.Example08.Start();
+
+            //Declaring and using a field
+            //_02_CreateAndUseTypes.CreateTypes.Example09.Start();
+
+            //Creating a collection such as a Deck class
+            //_02_CreateAndUseTypes.CreateTypes.Example10.Start();
+
+            //Adding a constructor to your type
+            //_02_CreateAndUseTypes.CreateTypes.Example11.Start();
+
+            //Chaining constructors
+            //_02_CreateAndUseTypes.CreateTypes.Example12.Start();
+
+            //Generic Nullable<T> implementation
+            //_02_CreateAndUseTypes.CreateTypes.Example13.Start();
+
+            //Using a where clause on a class definition
+            //_02_CreateAndUseTypes.CreateTypes.Example14.Start();
+
+            //Using default(T) with a generic type parameter
+            //_02_CreateAndUseTypes.CreateTypes.Example15.Start();
+
+            //Creating an extension method
+            //_02_CreateAndUseTypes.CreateTypes.Example16.Start();
+
+            //Overriding a virtual method
+            //_02_CreateAndUseTypes.CreateTypes.Example17.Start();
+
+            //Using the sealed keyword on a method
+            _02_CreateAndUseTypes.CreateTypes.Example18.Start();
+
             #endregion
         }
     }
