@@ -383,8 +383,43 @@ namespace Certification70_483
             //_02_CreateAndUseTypes.CreateTypes.Example17.Start();
 
             //Using the sealed keyword on a method
-            _02_CreateAndUseTypes.CreateTypes.Example18.Start();
+            //_02_CreateAndUseTypes.CreateTypes.Example18.Start();
 
+            //Boxing an integer value
+            //_02_CreateAndUseTypes.CreateTypes.Example19.Start();
+
+            //Implicitly converting an integer to a double
+            //_02_CreateAndUseTypes.CreateTypes.Example20.Start();
+
+            //Implicitly converting an object to a base type
+            //_02_CreateAndUseTypes.CreateTypes.Example21.Start();
+
+            //Casting a double to an int
+            //_02_CreateAndUseTypes.CreateTypes.Example22.Start();
+
+            //Explicitly casting a base type to a derived type
+            //_02_CreateAndUseTypes.CreateTypes.Example23.Start();
+
+            //Implementing an implicit and explicit conversion operator
+            //_02_CreateAndUseTypes.CreateTypes.Example24.Start();
+
+            //Using an implicit and explicit cast operator on a custom type
+            //_02_CreateAndUseTypes.CreateTypes.Example25.Start();
+
+            //Using the built-in Convert and Parse methods
+            //_02_CreateAndUseTypes.CreateTypes.Example26.Start();
+
+            //Using the is and as operators
+            //_02_CreateAndUseTypes.CreateTypes.Example27.Start();
+
+            //Exporting some data to Excel
+            //_02_CreateAndUseTypes.CreateTypes.Example28.Start();
+
+            //Creating a custom DynamicObject
+            //_02_CreateAndUseTypes.CreateTypes.Example29.Start();
+
+            //The dynamic keyword in ASP.NET MVC
+            _02_CreateAndUseTypes.CreateTypes.Example30.Start();
             #endregion
         }
     }
