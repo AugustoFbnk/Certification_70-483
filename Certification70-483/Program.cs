@@ -332,94 +332,167 @@ namespace Certification70_483
             #region Chapter02 - CreateTypes
 
             //Using the FlagAttribute for an enum
-            //_02_CreateAndUseTypes.CreateTypes.Example01.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example01.Start();
 
             //Creating a custom struct
-            //_02_CreateAndUseTypes.CreateTypes.Example02.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example02.Start();
 
             //Calling a method
-            //_02_CreateAndUseTypes.CreateTypes.Example03.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example03.Start();
 
             //Creating a method
-            //_02_CreateAndUseTypes.CreateTypes.Example04.Start(2, 2);
+            //_02_CreateAndUseTypes._01_CreateTypes.Example04.Start(2, 2);
 
             //Passing a complete customer to a method
-            //_02_CreateAndUseTypes.CreateTypes.Example05.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example05.Start();
 
             //Passing only an address to a method
-            //_02_CreateAndUseTypes.CreateTypes.Example06.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example06.Start();
 
             //Using named and optional arguments
-            //_02_CreateAndUseTypes.CreateTypes.Example07.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example07.Start();
 
             //Returning data from a method
-            //_02_CreateAndUseTypes.CreateTypes.Example08.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example08.Start();
 
             //Declaring and using a field
-            //_02_CreateAndUseTypes.CreateTypes.Example09.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example09.Start();
 
             //Creating a collection such as a Deck class
-            //_02_CreateAndUseTypes.CreateTypes.Example10.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example10.Start();
 
             //Adding a constructor to your type
-            //_02_CreateAndUseTypes.CreateTypes.Example11.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example11.Start();
 
             //Chaining constructors
-            //_02_CreateAndUseTypes.CreateTypes.Example12.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example12.Start();
 
             //Generic Nullable<T> implementation
-            //_02_CreateAndUseTypes.CreateTypes.Example13.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example13.Start();
 
             //Using a where clause on a class definition
-            //_02_CreateAndUseTypes.CreateTypes.Example14.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example14.Start();
 
             //Using default(T) with a generic type parameter
-            //_02_CreateAndUseTypes.CreateTypes.Example15.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example15.Start();
 
             //Creating an extension method
-            //_02_CreateAndUseTypes.CreateTypes.Example16.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example16.Start();
 
             //Overriding a virtual method
-            //_02_CreateAndUseTypes.CreateTypes.Example17.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example17.Start();
 
             //Using the sealed keyword on a method
-            //_02_CreateAndUseTypes.CreateTypes.Example18.Start();
+            //_02_CreateAndUseTypes._01_CreateTypes.Example18.Start();
 
+            #endregion
+
+            #region Chapter02 - ConsumeTypes
             //Boxing an integer value
-            //_02_CreateAndUseTypes.CreateTypes.Example19.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example19.Start();
 
             //Implicitly converting an integer to a double
-            //_02_CreateAndUseTypes.CreateTypes.Example20.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example20.Start();
 
             //Implicitly converting an object to a base type
-            //_02_CreateAndUseTypes.CreateTypes.Example21.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example21.Start();
 
             //Casting a double to an int
-            //_02_CreateAndUseTypes.CreateTypes.Example22.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example22.Start();
 
             //Explicitly casting a base type to a derived type
-            //_02_CreateAndUseTypes.CreateTypes.Example23.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example23.Start();
 
             //Implementing an implicit and explicit conversion operator
-            //_02_CreateAndUseTypes.CreateTypes.Example24.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example24.Start();
 
             //Using an implicit and explicit cast operator on a custom type
-            //_02_CreateAndUseTypes.CreateTypes.Example25.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example25.Start();
 
             //Using the built-in Convert and Parse methods
-            //_02_CreateAndUseTypes.CreateTypes.Example26.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example26.Start();
 
             //Using the is and as operators
-            //_02_CreateAndUseTypes.CreateTypes.Example27.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example27.Start();
 
             //Exporting some data to Excel
-            //_02_CreateAndUseTypes.CreateTypes.Example28.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example28.Start();
 
             //Creating a custom DynamicObject
-            //_02_CreateAndUseTypes.CreateTypes.Example29.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example29.Start();
 
             //The dynamic keyword in ASP.NET MVC
-            _02_CreateAndUseTypes.CreateTypes.Example30.Start();
+            //_02_CreateAndUseTypes._02_ConsumeTypes.Example30.Start();
+            #endregion
+
+            #region Chapter02 - EnforceEncapsulation
+            //Using access modifiers
+            //_02_CreateAndUseTypes._03_EnforceEncapsulation.Example31.Start();
+
+            //Using the private access modifier
+            //_02_CreateAndUseTypes._03_EnforceEncapsulation.Example32.Start();
+
+            //Changing a private field without outside users noticing
+            //_02_CreateAndUseTypes._03_EnforceEncapsulation.Example33.Start();
+
+            //Using the protected access modifier with inheritance
+            //_02_CreateAndUseTypes._03_EnforceEncapsulation.Example34.Start();
+
+            //Using the internal access modifier
+            //_02_CreateAndUseTypes._03_EnforceEncapsulation.Example35.Start();
+
+            //Encapsulating a field with custom methods
+            //_02_CreateAndUseTypes._03_EnforceEncapsulation.Example36.Start(1);
+
+            //Creating a property
+            //_02_CreateAndUseTypes._03_EnforceEncapsulation.Example37.Start();
+
+            //The IObjectContextAdapter interface
+            //_02_CreateAndUseTypes._03_EnforceEncapsulation.Example38.Start();
+
+            //Implementing an interface explicitly
+            //_02_CreateAndUseTypes._03_EnforceEncapsulation.Example39.Start();
+
+            //Implementing an interface explicitly 2
+            //_02_CreateAndUseTypes._03_EnforceEncapsulation.Example40.Start();
+            #endregion
+
+            #region Chapter02 - CreateAndImplementClassHierarchy
+            //Creating and implementing an interface
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example41.Start();
+
+            //Adding a set accessor to an implemented interface property
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example42.Start();
+
+            //Creating an interface with a generic type parameter
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example43.Start();
+
+            //Instantiating a concrete type that implements an interface
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example44.Start();
+
+            //Creating a base class
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example45.Start();
+
+            //Inheriting from a base class
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example46.Start();
+
+            //Overriding a virtual method
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example47.Start();
+
+            //Hiding a method with the new keyword
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example48.Start();
+
+            //Creating an abstract class
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example49.Start();
+
+            //A Rectangle class with an Area calculation
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example50.Start();
+
+            //A Square class that inherits from Rectangle
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example51.Start();
+
+            //Using the Square class
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example52.Start();
             #endregion
         }
     }
