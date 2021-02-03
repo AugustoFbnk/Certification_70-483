@@ -493,6 +493,12 @@ namespace Certification70_483
 
             //Using the Square class
             //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example52.Start();
+
+            //IComparable interface
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example53.Start();
+
+            //Implementing the IComparable interface
+            _02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example54.Start();
             #endregion
         }
     }

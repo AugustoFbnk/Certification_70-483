@@ -236,6 +236,8 @@
     <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example50.cs" />
     <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example51.cs" />
     <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example52.cs" />
+    <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example53.cs" />
+    <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example54.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
