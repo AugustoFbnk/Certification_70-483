@@ -498,7 +498,30 @@ namespace Certification70_483
             //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example53.Start();
 
             //Implementing the IComparable interface
-            _02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example54.Start();
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example54.Start();
+
+            //Syntactic sugar of the foreach statement
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example55.Start();
+
+            //Implementing IEnumerable<T> on a custom type
+            //_02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example56.Start();
+
+            //The IDisposable interface
+            _02_CreateAndUseTypes._04_CreateAndImplementClassHierarchy.Example57.Start();
+            #endregion
+
+            #region Chapter02 - FindExecuteCreateTypesAtRunTimeUsingReflection
+            //Applying an attribute
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example58.Start();
+
+            //Using multiple attributes
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example59.Start();
+
+            //Specifying the target of an attribute explicitly
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example60.Start();
+
+            //Seeing whether an attribute is defined
+            _02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example61.Start();
             #endregion
         }
     }

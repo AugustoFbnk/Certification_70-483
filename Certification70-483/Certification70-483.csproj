@@ -238,6 +238,13 @@
     <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example52.cs" />
     <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example53.cs" />
     <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example54.cs" />
+    <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example55.cs" />
+    <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example56.cs" />
+    <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example57.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example58.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example59.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example60.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example61.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
