@@ -1,0 +1,3 @@
+﻿"It’s important to know the difference between implementing IDisposable and a finalizer.
+Both clean up your object, but a finalizer is called by the garbage collector, and the Dispose
+method can be called from code."

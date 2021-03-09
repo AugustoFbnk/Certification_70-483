@@ -521,8 +521,143 @@ namespace Certification70_483
             //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example60.Start();
 
             //Seeing whether an attribute is defined
-            _02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example61.Start();
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example61.Start();
+
+            //Getting a specific attribute instance
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example62.Start();
+
+            //Using a category attribute in xUnit
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example63.Start();
+
+            //Creating a custom attribute
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example64.Start();
+
+            //Using a custom attribute
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example65.Start();
+
+            //Defining the targets for a custom attribute
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example66.Start();
+
+            //Setting the AllowMultiple parameter for a custom attribute
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example67.Start();
+
+            //Adding properties to a custom attribute
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example68.Start();
+
+            //Creating an interface that can be found through reflection
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example69.Start();
+
+            //Creating a custom plug-in class
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example70.Start();
+
+            //Inspecting an assembly for types that implement a custom interface
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example71.Start();
+
+            //Getting the value of a field through reflection
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example72.Start();
+
+            //Executing a method through reflection
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example73.Start();
+
+            //Generating “Hello World!” with the CodeDOM
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example74.Start();
+
+            //Generating a source file from a CodeCompileUnit
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example75.Start();
+
+            //The automatically generated source file
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example76.Start();
+
+            //Creating a Func type with a lambda
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example77.Start();
+
+            //Creating “Hello World!” with an expression tree
+            //_02_CreateAndUseTypes._05_FindExecuteCreateTypesAtRunTimeUsingReflection.Example78.Start();
             #endregion
+
+            #region Chapter02 - ManageTheObjectLifeCycle
+            //Adding a finalizer
+            //_02_CreateAndUseTypes._06_ManageTheObjectLifeCycle.Example79.Start();
+
+            //Not closing a file will throw an error
+            //_02_CreateAndUseTypes._06_ManageTheObjectLifeCycle.Example80.Start();
+
+            //Forcing a garbage collection
+            //_02_CreateAndUseTypes._06_ManageTheObjectLifeCycle.Example81.Start();
+
+            //The IDisposable interface
+            //_02_CreateAndUseTypes._06_ManageTheObjectLifeCycle.Example82.Start();
+
+            //Calling Dispose to free unmanaged resources
+            //_02_CreateAndUseTypes._06_ManageTheObjectLifeCycle.Example83.Start();
+
+            //Implementing IDisposable and a finalizer
+            //_02_CreateAndUseTypes._06_ManageTheObjectLifeCycle.Example84.Start();
+
+            //Using WeakReference
+            //_02_CreateAndUseTypes._06_ManageTheObjectLifeCycle.Example85.Start();
+            #endregion
+
+            #region Chapter02 - ManageTheObjectLifeCycle
+            //Creating a large number of strings
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example86.Start();
+
+            //Changing a character with a StringBuilder
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example87.Start();
+
+            //Using a StringBuilder in a loop
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example88.Start();
+
+            //Using a StringWriter as the output for an XmlWriter
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example89.Start();
+            #endregion
+
+            #region Chapter02 - ManipulateStrings
+            //Using a StringReader as the input for an XmlReader
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example90.Start();
+
+            //Using IndexOf and LastIndexOf
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example91.Start();
+
+            //Using StartsWith and EndsWith
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example92.Start();
+
+            //Reading a substring
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example93.Start();
+
+            //Changing a string with a regular expression
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example94.Start();
+
+            //Iterating over a string
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example95.Start();
+
+            //Overriding ToString
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example96.Start();
+
+            //Displaying a number with a currency format string
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example97.Start();
+
+            //Displaying a DateTime with different format strings
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example98.Start();
+
+            //Implementing custom formatting on a type
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example99.Start();
+
+            //Creating a composite string formatting
+            //_02_CreateAndUseTypes._07_ManipulateStrings.Example100.Start();
+            #endregion
+
+            #region Chapter03 - Validate application input
+
+            #endregion
+
+
+            //var currentPath = Environment.CurrentDirectory.Replace("\\bin\\Debug", string.Empty);
+            //new CodeGenerator()
+            //    .GenerateDefaultClass(
+            //    $"{currentPath}\\03-DebugApplicationsAndImplementSecurity\\01-ValidateApplicationInput\\Example02.cs",
+            //    "Example02",
+            //    "Certification70_483._03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput");
         }
     }
 }

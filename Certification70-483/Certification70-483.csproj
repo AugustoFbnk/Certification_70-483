@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\xunit.core.2.4.1\build\xunit.core.props" Condition="Exists('..\packages\xunit.core.2.4.1\build\xunit.core.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -13,6 +14,8 @@
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
     <Deterministic>true</Deterministic>
     <TargetFrameworkProfile />
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <PlatformTarget>AnyCPU</PlatformTarget>
@@ -72,6 +75,18 @@
     <Reference Include="System.Data" />
     <Reference Include="System.Net.Http" />
     <Reference Include="System.Xml" />
+    <Reference Include="xunit.abstractions, Version=2.0.0.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.abstractions.2.0.3\lib\net35\xunit.abstractions.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.assert, Version=2.4.1.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.assert.2.4.1\lib\netstandard1.1\xunit.assert.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.core, Version=2.4.1.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.extensibility.core.2.4.1\lib\net452\xunit.core.dll</HintPath>
+    </Reference>
+    <Reference Include="xunit.execution.desktop, Version=2.4.1.0, Culture=neutral, PublicKeyToken=8d05b1bb7a6fdb6c, processorArchitecture=MSIL">
+      <HintPath>..\packages\xunit.extensibility.execution.2.4.1\lib\net452\xunit.execution.desktop.dll</HintPath>
+    </Reference>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Example01.cs" />
@@ -241,10 +256,57 @@
     <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example55.cs" />
     <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example56.cs" />
     <Compile Include="02-CreateAndUseTypes\04-CreateAndImplementClassHierarchy\Example57.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\common\CategoryAttribute.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\common\Interfaces\IPlugin.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\common\MyApplication.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\common\UnitTestAttribute.cs" />
     <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example58.cs" />
     <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example59.cs" />
     <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example60.cs" />
     <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example61.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example62.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example63.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example64.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example65.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example66.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example67.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example68.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example69.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example70.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\common\MyPlugin.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example71.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example72.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example73.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example74.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example75.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example76.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example77.cs" />
+    <Compile Include="02-CreateAndUseTypes\05-FindExecuteCreateTypesAtRunTimeUsingReflection\Example78.cs" />
+    <Compile Include="02-CreateAndUseTypes\06-ManageTheObjectLifeCycle\common\UnmangedWrapper.cs" />
+    <Compile Include="02-CreateAndUseTypes\06-ManageTheObjectLifeCycle\Example79.cs" />
+    <Compile Include="02-CreateAndUseTypes\06-ManageTheObjectLifeCycle\Example80.cs" />
+    <Compile Include="02-CreateAndUseTypes\06-ManageTheObjectLifeCycle\Example81.cs" />
+    <Compile Include="02-CreateAndUseTypes\06-ManageTheObjectLifeCycle\Example82.cs" />
+    <Compile Include="02-CreateAndUseTypes\06-ManageTheObjectLifeCycle\Example83.cs" />
+    <Compile Include="02-CreateAndUseTypes\06-ManageTheObjectLifeCycle\Example84.cs" />
+    <Compile Include="02-CreateAndUseTypes\06-ManageTheObjectLifeCycle\Example85.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example100.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example86.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example87.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example88.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example89.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example90.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example91.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example92.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example93.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example94.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example95.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example96.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example97.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example98.cs" />
+    <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example99.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example01.cs" />
+    <Compile Include="CodeGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
@@ -252,12 +314,23 @@
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <Analyzer Include="..\packages\xunit.analyzers.0.10.0\analyzers\dotnet\cs\xunit.analyzers.dll" />
+  </ItemGroup>
   <ItemGroup>
     <Content Include="01-ManageProgramFlow\01-MultithreadingAndAsynchronousProcessing\Notes.txt" />
     <Content Include="01-ManageProgramFlow\03-ImplementProgramFlow\Notes.txt" />
     <Content Include="01-ManageProgramFlow\04-CreateAndImplementEventsAndDelegates\Notes.txt" />
     <Content Include="02-CreateAndUseTypes\01-CreateTypes\Notes.txt" />
+    <Content Include="02-CreateAndUseTypes\06-ManageTheObjectLifeCycle\Notes.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este projeto faz referência a pacotes do NuGet que não estão presentes neste computador. Use a Restauração de Pacotes do NuGet para baixá-los.  Para obter mais informações, consulte http://go.microsoft.com/fwlink/?LinkID=322105. O arquivo ausente é {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('..\packages\xunit.core.2.4.1\build\xunit.core.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.4.1\build\xunit.core.props'))" />
+    <Error Condition="!Exists('..\packages\xunit.core.2.4.1\build\xunit.core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.4.1\build\xunit.core.targets'))" />
+  </Target>
+  <Import Project="..\packages\xunit.core.2.4.1\build\xunit.core.targets" Condition="Exists('..\packages\xunit.core.2.4.1\build\xunit.core.targets')" />
 </Project>
