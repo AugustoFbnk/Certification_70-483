@@ -647,17 +647,155 @@ namespace Certification70_483
             //_02_CreateAndUseTypes._07_ManipulateStrings.Example100.Start();
             #endregion
 
-            #region Chapter03 - Validate application input
+            #region Chapter03 - ValidateApplicationInput
+            //Customer and Address classes
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example01.Start();
 
+            //Saving a new customer to the database
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example02.Start();
+
+            //Running manual validation
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example03.Start();
+
+            //Using Parse
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example04.Start();
+
+            //Using TryParse
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example05.Start();
+
+            //Using configuration options when parsing a number
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example06.Start();
+
+            //Using Convert with a null value
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example07.Start();
+
+            //Using Convert to convert from double to int
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example08.Start();
+
+            //Manually validating a ZIP Code
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example09.Start();
+
+            //Validate a ZIP Code with a regular expression
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example10.Start();
+
+            //Validate a ZIP Code with a regular expression
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example11.Start();
+
+            //Seeing whether a string contains potential JSON data
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example12.Start();
+
+            //Deserializing an object with the JavaScriptSerializer
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example13.Start();
+
+            //A sample XML with person data
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example14.Start();
+
+            //A sample XSD file
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example15.Start();
+
+            //Validating an XML file with a schema
+            //_03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput.Example16.Start();
+
+            #endregion
+
+            #region Chapter03 - PerformSymmetricAndAsymmetricEncryption
+
+            //Use a symmetric encryption algorithm
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example17.Start();
+
+            //Exporting a public key
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example18.Start();
+
+            //Using a public and private key to encrypt and decrypt data
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example19.Start();
+
+            //Using a key container for storing an asymmetric key
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example20.Start();
+
+            //A naïve set implementation
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example21.Start();
+
+            //A set implementation that uses hashing
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example22.Start();
+
+            //Using SHA256Managed to calculate a hash code
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example23.Start();
+
+            //Signing and verifying data with a certificate
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example24.Start();
+
+            //Declarative CAS
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example25.Start();
+
+            //Imperative CAS
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example26.Start();
+
+            //Initializing a SecureString
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example27.Start();
+
+            //Getting the value of a SecureString
+            //_03_DebugApplicationsAndImplementSecurity._02_PerformSymmetricAndAsymmetricEncryption.Example28.Start();
+
+            #endregion
+
+            #region Chapter03 - ManageAssemblies
+
+            //Inspecting the public key of a signed assembly
+            //_03_DebugApplicationsAndImplementSecurity._03_ManageAssemblies.Example29.Start();
+
+            //Redirecting assembly bindings to a newer version
+            //_03_DebugApplicationsAndImplementSecurity._03_ManageAssemblies.Example30.Start();
+
+            //Specifying additional locations for assemblies
+            //_03_DebugApplicationsAndImplementSecurity._03_ManageAssemblies.Example31.Start();
+
+            //Specifying additional locations for assemblies
+            //_03_DebugApplicationsAndImplementSecurity._03_ManageAssemblies.Example32.Start();
+
+            #endregion
+
+            #region Chapter03 - DebugAnApplication
+            //A simple console application
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example33.Start();
+
+            //Checking for the debug symbol
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example34.Start();
+
+            //Defining a custom symbol
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example35.Start();
+
+            //Using preprocessor directives to target multiple platforms
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example36.Start();
+
+            //The warning and error directives
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example37.Start();
+
+            //The line directive
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example38.Start();
+
+            //The pragma warning directive
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example39.Start();
+
+            //Disabling and enabling specific warnings
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example40.Start();
+
+            //Call a method only in a debug build
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example41.Start();
+
+            //Applying the ConditionalAttribute
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example42.Start();
+
+            //Applying the DebuggerDisplayAttribute
+            _03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example43.Start();
             #endregion
 
 
             //var currentPath = Environment.CurrentDirectory.Replace("\\bin\\Debug", string.Empty);
             //new CodeGenerator()
             //    .GenerateDefaultClass(
-            //    $"{currentPath}\\03-DebugApplicationsAndImplementSecurity\\01-ValidateApplicationInput\\Example02.cs",
-            //    "Example02",
-            //    "Certification70_483._03_DebugApplicationsAndImplementSecurity._01_ValidateApplicationInput");
+            //    $"{currentPath}\\03-DebugApplicationsAndImplementSecurity\\04-DebugAnApplication\\Example43.cs",
+            //    "Example43",
+            //    "Certification70_483._03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication");
         }
     }
 }

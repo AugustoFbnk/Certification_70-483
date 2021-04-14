@@ -1,5 +1,6 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.props" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" />
   <Import Project="..\packages\xunit.core.2.4.1\build\xunit.core.props" Condition="Exists('..\packages\xunit.core.2.4.1\build\xunit.core.props')" />
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
@@ -37,6 +38,12 @@
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
   <ItemGroup>
+    <Reference Include="EntityFramework, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.dll</HintPath>
+    </Reference>
+    <Reference Include="EntityFramework.SqlServer, Version=6.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089, processorArchitecture=MSIL">
+      <HintPath>..\packages\EntityFramework.6.4.4\lib\net45\EntityFramework.SqlServer.dll</HintPath>
+    </Reference>
     <Reference Include="Microsoft.Office.Interop.Excel, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.Office.Interop.Excel.15.0.4795.1000\lib\net20\Microsoft.Office.Interop.Excel.dll</HintPath>
       <EmbedInteropTypes>True</EmbedInteropTypes>
@@ -45,12 +52,14 @@
       <HintPath>..\packages\Microsoft.Web.Infrastructure.1.0.0.0\lib\net40\Microsoft.Web.Infrastructure.dll</HintPath>
     </Reference>
     <Reference Include="System" />
+    <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System.Core" />
     <Reference Include="System.Data.Entity" />
     <Reference Include="System.Messaging" />
     <Reference Include="System.Threading.Tasks.Dataflow, Version=5.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a, processorArchitecture=MSIL">
       <HintPath>..\packages\System.Threading.Tasks.Dataflow.5.0.0\lib\net461\System.Threading.Tasks.Dataflow.dll</HintPath>
     </Reference>
+    <Reference Include="System.Web.Extensions" />
     <Reference Include="System.Web.Helpers, Version=3.0.0.0, Culture=neutral, PublicKeyToken=31bf3856ad364e35, processorArchitecture=MSIL">
       <HintPath>..\packages\Microsoft.AspNet.WebPages.3.2.7\lib\net45\System.Web.Helpers.dll</HintPath>
     </Reference>
@@ -305,12 +314,73 @@
     <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example97.cs" />
     <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example98.cs" />
     <Compile Include="02-CreateAndUseTypes\07-ManipulateStrings\Example99.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\common\Address.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\common\Customer.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\common\person.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>person.xsd</DependentUpon>
+    </Compile>
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\common\ShopContext.cs" />
     <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example01.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example02.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example03.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example04.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example05.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example06.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example07.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example08.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example09.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example10.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example11.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example12.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example13.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example14.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example15.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\Example16.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example17.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example18.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example19.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example20.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example21.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example22.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example23.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example24.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example25.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example26.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example27.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\02-PerformSymmetricAndAsymmetricEncryption\Example28.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\03-ManageAssemblies\Example29.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\03-ManageAssemblies\Example30.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\03-ManageAssemblies\Example31.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\03-ManageAssemblies\Example32.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\04-DebugAnApplication\Example33.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\04-DebugAnApplication\Example34.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\04-DebugAnApplication\Example35.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\04-DebugAnApplication\Example36.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\04-DebugAnApplication\Example37.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\04-DebugAnApplication\Example38.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\04-DebugAnApplication\Example39.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\04-DebugAnApplication\Example40.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\04-DebugAnApplication\Example41.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\04-DebugAnApplication\Example42.cs" />
+    <Compile Include="03-DebugApplicationsAndImplementSecurity\04-DebugAnApplication\Example43.cs" />
     <Compile Include="CodeGenerator.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
+    <None Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\common\person.xsc">
+      <DependentUpon>person.xsd</DependentUpon>
+    </None>
+    <None Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\common\person.xsd">
+      <Generator>MSDataSetGenerator</Generator>
+      <LastGenOutput>person.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </None>
+    <None Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\common\person.xss">
+      <DependentUpon>person.xsd</DependentUpon>
+    </None>
     <None Include="App.config" />
     <None Include="packages.config" />
   </ItemGroup>
@@ -323,7 +393,9 @@
     <Content Include="01-ManageProgramFlow\04-CreateAndImplementEventsAndDelegates\Notes.txt" />
     <Content Include="02-CreateAndUseTypes\01-CreateTypes\Notes.txt" />
     <Content Include="02-CreateAndUseTypes\06-ManageTheObjectLifeCycle\Notes.txt" />
+    <Content Include="03-DebugApplicationsAndImplementSecurity\01-ValidateApplicationInput\common\Person.xml" />
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
     <PropertyGroup>
@@ -331,6 +403,9 @@
     </PropertyGroup>
     <Error Condition="!Exists('..\packages\xunit.core.2.4.1\build\xunit.core.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.4.1\build\xunit.core.props'))" />
     <Error Condition="!Exists('..\packages\xunit.core.2.4.1\build\xunit.core.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\xunit.core.2.4.1\build\xunit.core.targets'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.props')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.props'))" />
+    <Error Condition="!Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" Text="$([System.String]::Format('$(ErrorText)', '..\packages\EntityFramework.6.4.4\build\EntityFramework.targets'))" />
   </Target>
   <Import Project="..\packages\xunit.core.2.4.1\build\xunit.core.targets" Condition="Exists('..\packages\xunit.core.2.4.1\build\xunit.core.targets')" />
+  <Import Project="..\packages\EntityFramework.6.4.4\build\EntityFramework.targets" Condition="Exists('..\packages\EntityFramework.6.4.4\build\EntityFramework.targets')" />
 </Project>
