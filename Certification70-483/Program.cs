@@ -786,16 +786,215 @@ namespace Certification70_483
             //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example42.Start();
 
             //Applying the DebuggerDisplayAttribute
-            _03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example43.Start();
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example43.Start();
+
+            //Examining PDB files
+            //_03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication.Example44.Start();
+            #endregion
+
+            #region Chapter03 - ImplementDiagnosticsInAnApplication
+
+            //Using the Debug class
+            //_03_DebugApplicationsAndImplementSecurity._05_ImplementDiagnosticsInAnApplication.Example45.Start();
+
+            //Using the TraceSource class
+            //_03_DebugApplicationsAndImplementSecurity._05_ImplementDiagnosticsInAnApplication.Example46.Start();
+
+            //Configuring TraceListener.
+            //_03_DebugApplicationsAndImplementSecurity._05_ImplementDiagnosticsInAnApplication.Example47.Start();
+
+            //Using a configuration file for tracin
+            //_03_DebugApplicationsAndImplementSecurity._05_ImplementDiagnosticsInAnApplication.Example48.Start();
+
+            //Writing data to the event log
+            //_03_DebugApplicationsAndImplementSecurity._05_ImplementDiagnosticsInAnApplication.Example49.Start();
+
+            //Reading data from the event log
+            //_03_DebugApplicationsAndImplementSecurity._05_ImplementDiagnosticsInAnApplication.Example50.Start();
+
+            //Writing data to the event log
+            //_03_DebugApplicationsAndImplementSecurity._05_ImplementDiagnosticsInAnApplication.Example51.Start();
+
+            //Using the StopWatch class
+            //_03_DebugApplicationsAndImplementSecurity._05_ImplementDiagnosticsInAnApplication.Example52.Start();
+
+            //Reading data from a performance counter
+            //_03_DebugApplicationsAndImplementSecurity._05_ImplementDiagnosticsInAnApplication.Example53.Start();
+
+            //Reading data from a performance counter
+            //_03_DebugApplicationsAndImplementSecurity._05_ImplementDiagnosticsInAnApplication.Example54.Start();
+            #endregion
+
+            #region Chapter04 - PerformIOOperations
+            //Listing drive information
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example01.Start();
+
+            //Creating a new directory
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example02.Start();
+
+            //Deleting an existing directory
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example03.Start();
+
+            //Setting access control for a directory
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example04.Start();
+
+            //Building a directory tree
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example05.Start();
+
+            //Moving a directory
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example06.Start();
+
+            //Listing all the files in a directory
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example07.Start();
+
+            //Deleting a file
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example08.Start();
+
+            //Moving a file
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example09.Start();
+
+            //Copying a file
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example10.Start();
+
+            //Don’t manually concatenate strings to form a file path
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example11.Start();
+
+            //Using Path.Combine
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example12.Start();
+
+            //Using other Path methods to parse a path
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example13.Start();
+
+            //Create and use a FileStream
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example14.Start();
+
+            //Using File.CreateText with a StreamWrite
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example15.Start();
+
+            //Opening a FileStream and decode the bytes to a string
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example16.Start();
+
+            //Opening a TextFile and reading the content
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example17.Start();
+
+            //Compressing data with a GZipStream
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example18.Start();
+
+            //Using a BufferedStream
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example19.Start();
+
+            //Depending on File.Exists when reading file content
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example20.Start();
+
+            //Using exception handling when opening a file
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example21.Start();
+
+            //Executing a web request
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example22.Start();
+
+            // Writing asynchronously to a file
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example23.Start();
+
+            //Executing an asynchronous HTTP request
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example24.Start();
+
+            //Executing multiple awaits
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example25.Start();
+
+            //Executing multiple requests in parallel
+            //_04_ImplementDataAccess._01_PerformIOOperations.Example26.Start();
+            #endregion
+
+            #region Chapter04 - ConsumeData
+            //SqlConnection with a using statement to automatically close it
+            //_04_ImplementDataAccess._02_ConsumeData.Example27.Start();
+
+            //Creating a connection string with SqlConnectionStringBuilder
+            //_04_ImplementDataAccess._02_ConsumeData.Example28.Start();
+
+            //Putting a connection string in the app.config fil
+            //_04_ImplementDataAccess._02_ConsumeData.Example29.Start();
+
+            //Using a connection string from an external configuration file
+            //_04_ImplementDataAccess._02_ConsumeData.Example30.Start();
+
+            //Using SQL script to create a table
+            //_04_ImplementDataAccess._02_ConsumeData.Example31.Start();
+
+            //Executing a SQL select command
+            //_04_ImplementDataAccess._02_ConsumeData.Example32.Start();
+
+            //Executing a SQL query with multiple result sets
+            //_04_ImplementDataAccess._02_ConsumeData.Example33.Start();
+
+            //Updating rows with ExecuteNonQuery
+            //_04_ImplementDataAccess._02_ConsumeData.Example34.Start();
+
+            //Inserting values with a parameterized query
+            //_04_ImplementDataAccess._02_ConsumeData.Example35.Start();
+
+            //Using a TransactionScope
+            //_04_ImplementDataAccess._02_ConsumeData.Example36.Start();
+
+            //A simple Person class
+            //_04_ImplementDataAccess._02_ConsumeData.Example37.Start();
+
+            // Using Code First to map a class to the database
+            //_04_ImplementDataAccess._02_ConsumeData.Example38.Start();
+
+            //A simple WCF web service
+            //_04_ImplementDataAccess._02_ConsumeData.Example39.Start();
+
+            //A generated WCF proxy client
+            //_04_ImplementDataAccess._02_ConsumeData.Example40.Start();
+
+            //Using a WCF proxy client
+            //_04_ImplementDataAccess._02_ConsumeData.Example41.Start();
+
+            //XML file
+            //_04_ImplementDataAccess._02_ConsumeData.Example42.Start();
+
+            //Parsing an XML file with an XmlReader
+            //_04_ImplementDataAccess._02_ConsumeData.Example43.Start();
+
+            //Creating an XML file with XmlWriter
+            //_04_ImplementDataAccess._02_ConsumeData.Example44.Start();
+
+            //Using XmlDocument
+            //_04_ImplementDataAccess._02_ConsumeData.Example45.Start();
+
+            //Using an XPath query
+            //_04_ImplementDataAccess._02_ConsumeData.Example46.Start();
+
+            //A sample JSON file
+            //_04_ImplementDataAccess._02_ConsumeData.Example47.Start();
+
+            //Creating and initializing an object
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example48.Start();
+
+            //Using an object initializer
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example49.Start();
+
+            //Using a collection initializer
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example50.Start();
+
+            // Using an anonymous method
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example51.Start();
+
+            //Using an extension method
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example52.Start();
+
+            //Creating an anonymous type
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example53.Start();
             #endregion
 
 
             //var currentPath = Environment.CurrentDirectory.Replace("\\bin\\Debug", string.Empty);
             //new CodeGenerator()
             //    .GenerateDefaultClass(
-            //    $"{currentPath}\\03-DebugApplicationsAndImplementSecurity\\04-DebugAnApplication\\Example43.cs",
-            //    "Example43",
-            //    "Certification70_483._03_DebugApplicationsAndImplementSecurity._04_DebugAnApplication");
+            //    $"{currentPath}\\04-ImplementDataAccess\\03-QueryAndManipulateDataAndObjects\\Example53.cs",
+            //    "Example53",
+            //    "Certification70_483._04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects");
         }
     }
 }
