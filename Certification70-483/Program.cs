@@ -968,7 +968,9 @@ namespace Certification70_483
 
             //A sample JSON file
             //_04_ImplementDataAccess._02_ConsumeData.Example47.Start();
+            #endregion
 
+            #region Chapter04 - QueryAndManipulateDataAndObjects
             //Creating and initializing an object
             //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example48.Start();
 
@@ -986,15 +988,137 @@ namespace Certification70_483
 
             //Creating an anonymous type
             //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example53.Start();
+
+            //A LINQ select query
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example54.Start();
+
+            // LINQ Select operator
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example55.Start();
+
+            //LINQ where operator
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example56.Start();
+
+            //LINQ orderby operator
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example57.Start();
+
+            //LINQ multiple from statements
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example58.Start();
+
+            //A sample Order class for LINQ queries
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example59.Start();
+
+            //Using group by and projection
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example60.Start();
+
+            //Using join
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example61.Start();
+
+            //Using Skip and Take to implement paging
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example62.Start();
+
+            //Implementing Where
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example63.Start();
+
+            //Sample XML
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example64.Start();
+
+            //Querying some XML by using LINQ to XML
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example65.Start();
+
+            //Using Where and OrderBy in a LINQ to XML query
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example66.Start();
+
+            //Creating XML with the XElement class
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example67.Start();
+
+            //Updating XML in a procedural way
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example68.Start();
+
+            //Transforming XML with functional creation
+            //_04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects.Example69.Start();
+
             #endregion
 
+            #region Chapter04 - SerializeAndDeserializeData
+
+            //Serializing an object with the XmlSerializer
+            //_04_ImplementDataAccess._04_SerializeAndDeserializeData.Example70.Start();
+
+            //Using the XML attributes to configure serialization
+            //_04_ImplementDataAccess._04_SerializeAndDeserializeData.Example71.Start();
+
+            //Serializing a derived, complex class to XML
+            //_04_ImplementDataAccess._04_SerializeAndDeserializeData.Example72.Start();
+
+            //Using binary serialization
+            //_04_ImplementDataAccess._04_SerializeAndDeserializeData.Example73.Start();
+
+            //Using attributes to control serialization
+            //_04_ImplementDataAccess._04_SerializeAndDeserializeData.Example74.Start();
+
+            //Influencing serialization and deserialization
+            //_04_ImplementDataAccess._04_SerializeAndDeserializeData.Example75.Start();
+
+            //Implementing ISerializable
+            //_04_ImplementDataAccess._04_SerializeAndDeserializeData.Example76.Start();
+
+            //Using a DataContract
+            //_04_ImplementDataAccess._04_SerializeAndDeserializeData.Example77.Start();
+
+            //Using the DataContractSerializer
+            //_04_ImplementDataAccess._04_SerializeAndDeserializeData.Example78.Start();
+
+            //Using the DataContractJsonSerializer
+            //_04_ImplementDataAccess._04_SerializeAndDeserializeData.Example79.Start();
+            #endregion
+
+            #region Chapter04 - StoreDataInAndRetrieveDataFromCollections
+
+            //Using an array
+            //_04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example80.Start();
+
+            //Using a two-dimensional array
+            //_04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example81.Start();
+
+            //Creating a jagged array
+            //_04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example82.Start();
+
+            //Using IList<T> and ICollection<T>
+            //_04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example83.Start();
+
+            //Using List<T>
+            //_04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example84.Start();
+
+            //Using Dictionary<TKey, TValue>
+            //_04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example85.Start();
+
+            // Using the ISet<T> interface
+            //_04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example86.Start();
+
+            ///Using HashSet<T>
+            //_04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example87.Start();
+
+            //Using Queue<T>
+            //_04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example88.Start();
+
+            //Using Stack<T>
+            //_04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example89.Start();
+
+            //Inheriting from List<T> to form a custom collection
+            //_04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example90.Start();
+
+            //Using a custom collection
+            _04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections.Example91.Start();
+
+
+            #endregion
 
             //var currentPath = Environment.CurrentDirectory.Replace("\\bin\\Debug", string.Empty);
             //new CodeGenerator()
             //    .GenerateDefaultClass(
-            //    $"{currentPath}\\04-ImplementDataAccess\\03-QueryAndManipulateDataAndObjects\\Example53.cs",
-            //    "Example53",
-            //    "Certification70_483._04_ImplementDataAccess._03_QueryAndManipulateDataAndObjects");
+            //    $"{currentPath}\\04-ImplementDataAccess\\05-StoreDataInAndRetrieveDataFromCollections\\Example91.cs",
+            //    "Example91",
+            //    "Certification70_483._04_ImplementDataAccess._05_StoreDataInAndRetrieveDataFromCollections");
         }
     }
 }
